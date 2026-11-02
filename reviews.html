@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Reviews | Glamour Beauty Salon & Spa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="page-banner" style="--banner: url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1600&q=80')">
+    <div class="container">
+      <span class="script">Happy Clients</span>
+      <h1>Client Reviews</h1>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Reviews</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title reveal">
+        <span class="script">What Our Clients Say</span>
+        <h2>Testimonials</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="slider reveal">
+        <div class="slider-track">
+          <div class="review-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Absolutely loved my bridal makeup! The team made me feel like a princess on my big day. Highly recommended!"</p>
+            <div class="review-user">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80" alt="Priya S." />
+              <div><h4>Priya S.</h4><span>Bridal Client</span></div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Best hair colour I have ever had. Lina understood exactly what I wanted. The salon is so clean and relaxing."</p>
+            <div class="review-user">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80" alt="Aisha M." />
+              <div><h4>Aisha M.</h4><span>Hair Colour</span></div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+            <p>"The hydra facial left my skin glowing for days. Friendly staff and great value. I'll definitely be back!"</p>
+            <div class="review-user">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&q=80" alt="Emily R." />
+              <div><h4>Emily R.</h4><span>Skin Care</span></div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"My nails have never looked better. Such creative designs and they last for weeks. Love this place!"</p>
+            <div class="review-user">
+              <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=150&q=80" alt="Fatima K." />
+              <div><h4>Fatima K.</h4><span>Nail Art</span></div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Booked a party makeup last minute and they fit me in. The look was flawless and lasted all night!"</p>
+            <div class="review-user">
+              <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=150&q=80" alt="Sana T." />
+              <div><h4>Sana T.</h4><span>Party Makeup</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-nav">
+          <button class="slider-prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="slider-next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="container stats-grid">
+      <div><strong>4.9</strong>Google Rating</div>
+      <div><strong>5K+</strong>Happy Clients</div>
+      <div><strong>1.2K</strong>5-Star Reviews</div>
+      <div><strong>98%</strong>Return Clients</div>
+    </div>
+  </div>
+
+  <section class="bg-soft">
+    <div class="container">
+      <div class="section-title reveal">
+        <span class="script">Share Your Experience</span>
+        <h2>Leave a Review</h2>
+        <div class="line"></div>
+      </div>
+      <form class="form-card review-form reveal" data-success="Thank you for your review! It will appear after approval.">
+        <div class="form-row">
+          <div class="form-group"><label>Your Name</label><input type="text" required placeholder="Jane Doe" /></div>
+          <div class="form-group">
+            <label>Rating</label>
+            <select required>
+              <option value="5">★★★★★ Excellent</option>
+              <option value="4">★★★★ Very Good</option>
+              <option value="3">★★★ Good</option>
+              <option value="2">★★ Fair</option>
+              <option value="1">★ Poor</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"><label>Your Review</label><textarea required placeholder="Tell us about your visit..."></textarea></div>
+        <button type="submit" class="btn">Submit Review</button>
+        <div class="form-msg"></div>
+      </form>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

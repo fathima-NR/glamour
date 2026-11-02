@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Booking | Glamour Beauty Salon & Spa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="page-banner" style="--banner: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80')">
+    <div class="container">
+      <span class="script">Get in Touch</span>
+      <h1>Contact Us</h1>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Contact</div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><h4>Visit Us</h4><p>Al Wasl Road, Jumeirah 1,<br />Dubai, United Arab Emirates</p></div>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-phone"></i>
+          <div><h4>Call Us</h4><p>+971 50 123 4567<br />+971 4 765 4321</p></div>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div><h4>Email Us</h4><p>hello@glamourbeauty.com<br />booking@glamourbeauty.com</p></div>
+        </div>
+        <div class="info-card">
+          <i class="fa-regular fa-clock"></i>
+          <div style="flex:1">
+            <h4>Opening Hours</h4>
+            <table class="hours-table">
+              <tr><td>Monday - Thursday</td><td>10 AM - 9 PM</td></tr>
+              <tr><td>Friday</td><td>2 PM - 10 PM</td></tr>
+              <tr><td>Saturday - Sunday</td><td>10 AM - 10 PM</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <form class="form-card reveal" data-success="Thank you! Your appointment request has been received. We'll confirm shortly by phone.">
+        <h3>Book an Appointment</h3>
+        <p>Fill in the details and our team will confirm your booking.</p>
+        <div class="form-row">
+          <div class="form-group"><label>Full Name</label><input type="text" name="name" required placeholder="Jane Doe" /></div>
+          <div class="form-group"><label>Phone Number</label><input type="tel" name="phone" required placeholder="+971 50 000 0000" /></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="you@example.com" /></div>
+          <div class="form-group">
+            <label>Service</label>
+            <select name="service" required>
+              <option value="">Select a service</option>
+              <option>Hair Styling</option>
+              <option>Hair Colour</option>
+              <option>Makeup</option>
+              <option>Facials</option>
+              <option>Nail Art</option>
+              <option>Bridal Makeup</option>
+              <option>Glow Package</option>
+              <option>Bridal Package</option>
+              <option>Hair Care Package</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Preferred Date</label><input type="date" name="date" required /></div>
+          <div class="form-group">
+            <label>Preferred Time</label>
+            <select name="time" required>
+              <option value="">Select a time</option>
+              <option>10:00 AM</option><option>11:00 AM</option><option>12:00 PM</option>
+              <option>1:00 PM</option><option>2:00 PM</option><option>3:00 PM</option>
+              <option>4:00 PM</option><option>5:00 PM</option><option>6:00 PM</option>
+              <option>7:00 PM</option><option>8:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"><label>Message (optional)</label><textarea name="message" placeholder="Any special requests or offer code?"></textarea></div>
+        <button type="submit" class="btn">Confirm Booking <i class="fa-solid fa-calendar-check"></i></button>
+        <div class="form-msg"></div>
+      </form>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="map reveal">
+        <iframe src="https://www.google.com/maps?q=Al+Wasl+Road+Jumeirah+Dubai&output=embed" loading="lazy" title="Salon location"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
